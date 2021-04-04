@@ -2,7 +2,7 @@ organization := "org.goldenport"
 
 name := "pbj"
 
-version := "0.0.1-SNAPSHOT"
+version := "0.0.1"
 
 scalaVersion := "2.10.3"
 // crossScalaVersions := Seq("2.10.39.2", "2.9.1")
@@ -35,11 +35,11 @@ resolvers += "Local Maven Repository" at "file://"+Path.userHome.absolutePath+"/
 
 // libraryDependencies += "org.smartdox" %% "smartdox" % "1.3.1"
 
-libraryDependencies += "org.goldenport" %% "kaleidox" % "0.1.15-SNAPSHOT"
+libraryDependencies += "org.goldenport" %% "kaleidox" % "0.1.15"
 
-libraryDependencies += "org.simplemodeling" %% "simplemodeler" % "1.0.1-SNAPSHOT"
+libraryDependencies += "org.simplemodeling" %% "simplemodeler" % "1.0.0"
 
-libraryDependencies += "org.goldenport" %% "arcadia" % "0.0.41-SNAPSHOT"
+libraryDependencies += "org.goldenport" %% "arcadia" % "0.0.40"
 
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
 
