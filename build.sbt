@@ -2,7 +2,7 @@ organization := "org.goldenport"
 
 name := "pbj"
 
-version := "0.0.1"
+version := "0.0.2"
 
 scalaVersion := "2.10.3"
 // crossScalaVersions := Seq("2.10.39.2", "2.9.1")
@@ -25,17 +25,19 @@ resolvers += "Asami Maven Repository" at "http://www.asamioffice.com/maven"
 
 resolvers += "Local Maven Repository" at "file://"+Path.userHome.absolutePath+"/.m2/repository"
 
-// override goldenport-record
+// override kaleidox
 // libraryDependencies += "org.goldenport" %% "goldenport-scala-lib" % "1.2.75"
 
-// override goldenport-sexpr
+// override kaleidox
 // libraryDependencies += "org.goldenport" %% "goldenport-record" % "1.3.30"
 
+// override kaleidox
 // libraryDependencies += "org.goldenport" %% "goldenport-sexpr" % "2.0.13"
 
+// override kaleidox
 // libraryDependencies += "org.smartdox" %% "smartdox" % "1.3.1"
 
-libraryDependencies += "org.goldenport" %% "kaleidox" % "0.1.15"
+libraryDependencies += "org.goldenport" %% "kaleidox" % "0.1.16"
 
 libraryDependencies += "org.simplemodeling" %% "simplemodeler" % "1.0.0"
 
